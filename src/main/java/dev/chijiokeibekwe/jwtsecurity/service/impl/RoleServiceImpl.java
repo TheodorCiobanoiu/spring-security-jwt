@@ -4,7 +4,7 @@ import dev.chijiokeibekwe.jwtsecurity.enums.RoleName;
 import dev.chijiokeibekwe.jwtsecurity.entity.Role;
 import dev.chijiokeibekwe.jwtsecurity.enums.UserType;
 import dev.chijiokeibekwe.jwtsecurity.repository.RoleRepository;
-import dev.chijiokeibekwe.jwtsecurity.service.RoleService;
+import dev.chijiokeibekwe.jwtsecurity.service.api.RoleService;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

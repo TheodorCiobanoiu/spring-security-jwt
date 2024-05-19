@@ -1,4 +1,4 @@
-package dev.chijiokeibekwe.jwtsecurity.service;
+package dev.chijiokeibekwe.jwtsecurity.service.api;
 
 import dev.chijiokeibekwe.jwtsecurity.dto.CustomUserDetails;
 import io.jsonwebtoken.Claims;

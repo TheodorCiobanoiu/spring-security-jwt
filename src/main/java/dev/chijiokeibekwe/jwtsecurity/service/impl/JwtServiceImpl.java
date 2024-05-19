@@ -3,7 +3,7 @@ package dev.chijiokeibekwe.jwtsecurity.service.impl;
 import dev.chijiokeibekwe.jwtsecurity.config.properties.AuthenticationProperties;
 import dev.chijiokeibekwe.jwtsecurity.dto.CustomUserDetails;
 import dev.chijiokeibekwe.jwtsecurity.repository.TokenRepository;
-import dev.chijiokeibekwe.jwtsecurity.service.JwtService;
+import dev.chijiokeibekwe.jwtsecurity.service.api.JwtService;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
 import lombok.AllArgsConstructor;

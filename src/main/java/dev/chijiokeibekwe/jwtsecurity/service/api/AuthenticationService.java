@@ -1,4 +1,4 @@
-package dev.chijiokeibekwe.jwtsecurity.service;
+package dev.chijiokeibekwe.jwtsecurity.service.api;
 
 import dev.chijiokeibekwe.jwtsecurity.dto.response.AuthenticationResponse;
 import dev.chijiokeibekwe.jwtsecurity.dto.request.AuthenticationRequest;

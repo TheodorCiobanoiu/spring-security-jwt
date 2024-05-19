@@ -3,7 +3,7 @@ package dev.chijiokeibekwe.jwtsecurity.controller;
 import dev.chijiokeibekwe.jwtsecurity.common.ResponseObject;
 import dev.chijiokeibekwe.jwtsecurity.dto.response.UserResponse;
 import dev.chijiokeibekwe.jwtsecurity.dto.request.UserRegistrationRequest;
-import dev.chijiokeibekwe.jwtsecurity.service.UserService;
+import dev.chijiokeibekwe.jwtsecurity.service.api.UserService;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

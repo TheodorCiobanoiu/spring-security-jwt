@@ -1,6 +1,6 @@
 package dev.chijiokeibekwe.jwtsecurity.auth;
 
-import dev.chijiokeibekwe.jwtsecurity.service.JwtService;
+import dev.chijiokeibekwe.jwtsecurity.service.api.JwtService;
 import com.google.common.base.Strings;
 import io.jsonwebtoken.*;
 import jakarta.servlet.FilterChain;

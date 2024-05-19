@@ -1,7 +1,7 @@
 package dev.chijiokeibekwe.jwtsecurity.controller;
 
 import dev.chijiokeibekwe.jwtsecurity.common.ResponseObject;
-import dev.chijiokeibekwe.jwtsecurity.service.AuthenticationService;
+import dev.chijiokeibekwe.jwtsecurity.service.api.AuthenticationService;
 import dev.chijiokeibekwe.jwtsecurity.dto.response.AuthenticationResponse;
 import dev.chijiokeibekwe.jwtsecurity.dto.request.AuthenticationRequest;
 import dev.chijiokeibekwe.jwtsecurity.dto.request.RefreshTokenRequest;

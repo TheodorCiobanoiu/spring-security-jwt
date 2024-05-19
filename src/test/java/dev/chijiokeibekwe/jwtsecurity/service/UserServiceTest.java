@@ -4,6 +4,8 @@ import dev.chijiokeibekwe.jwtsecurity.dto.response.UserResponse;
 import dev.chijiokeibekwe.jwtsecurity.entity.User;
 import dev.chijiokeibekwe.jwtsecurity.enums.RoleName;
 import dev.chijiokeibekwe.jwtsecurity.repository.UserRepository;
+import dev.chijiokeibekwe.jwtsecurity.service.api.RoleService;
+import dev.chijiokeibekwe.jwtsecurity.service.api.UserService;
 import dev.chijiokeibekwe.jwtsecurity.service.impl.UserServiceImpl;
 import dev.chijiokeibekwe.jwtsecurity.util.TestUtil;
 import jakarta.persistence.EntityExistsException;

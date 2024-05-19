@@ -5,9 +5,9 @@ import dev.chijiokeibekwe.jwtsecurity.dto.request.UserRegistrationRequest;
 import dev.chijiokeibekwe.jwtsecurity.entity.Role;
 import dev.chijiokeibekwe.jwtsecurity.entity.User;
 import dev.chijiokeibekwe.jwtsecurity.mapper.Mapper;
-import dev.chijiokeibekwe.jwtsecurity.service.UserService;
+import dev.chijiokeibekwe.jwtsecurity.service.api.UserService;
 import dev.chijiokeibekwe.jwtsecurity.repository.UserRepository;
-import dev.chijiokeibekwe.jwtsecurity.service.RoleService;
+import dev.chijiokeibekwe.jwtsecurity.service.api.RoleService;
 import jakarta.persistence.EntityExistsException;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.*;
@@ -45,6 +45,7 @@ public class UserServiceImpl implements UserService {
                 .accountNonLocked(true)
                 .credentialsNonExpired(true)
                 .enabled(true)
+                .verified(true)
                 .build();
 
         return Mapper.toUserResponse(userRepository.save(user));
