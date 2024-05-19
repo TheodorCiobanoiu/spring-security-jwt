@@ -8,7 +8,7 @@ server:
 
 spring:
   application:
-    name: spring-security-jwt
+    name: platforma-consiliere
   datasource:
     password: postgres
     url: jdbc:postgresql://localhost:5431/spring-security-jwt
