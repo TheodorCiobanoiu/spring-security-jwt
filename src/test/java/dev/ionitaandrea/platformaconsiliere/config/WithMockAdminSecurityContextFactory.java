@@ -28,7 +28,6 @@ public class WithMockAdminSecurityContextFactory implements WithSecurityContextF
                 null,
                 grantedAuthorities
         );
-
         securityContext.setAuthentication(authentication);
 
         return securityContext;
